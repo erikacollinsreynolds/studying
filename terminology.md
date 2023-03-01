@@ -1,4 +1,3 @@
-
 # Compiling: 
 In formal computer-science lingo, "compiling" typically refers to the process of taking human-readable code and transforming it into machine-readable code.
 

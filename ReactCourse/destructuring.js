@@ -52,3 +52,13 @@ function HorizontalRule({ width = 100 }) {
 // We can pass in a specific value as a prop if we don't want the default value
 <HorizontalRule width={250} /> // 250px
 <HorizontalRule /> // 100px
+
+
+// // For React Import Renaming
+import { Wrapper } from './Header';
+import { Wrapper } from './Footer';
+// 🚫 Identifier 'Wrapper' has already been declared.
+
+import { Wrapper as HeaderWrapper } from './Header';
+import { Wrapper as FooterWrapper } from './Footer';
+// ✅ No problems
